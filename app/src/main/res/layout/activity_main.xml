@@ -23,7 +23,7 @@
     <EditText
         android:id="@+id/editPrimeiroNome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_primeiro_nome"
@@ -35,7 +35,7 @@
     <EditText
         android:id="@+id/editSobrenome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_Sobrenome"
@@ -47,7 +47,7 @@
     <EditText
         android:id="@+id/editCurso"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_NomeDoCursoDesejado"
@@ -59,7 +59,7 @@
     <EditText
         android:id="@+id/editTelefone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_TelefoneDeContato"
@@ -74,7 +74,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="180dp"
         android:layout_marginBottom="84dp"
-        android:background="@color/corBotoes"
         android:text="@string/txt_button_salvar"
         app:layout_constraintBottom_toTopOf="@+id/editFinalizar"
         app:layout_constraintStart_toEndOf="@+id/editLimpar"
@@ -87,12 +86,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="84dp"
-        android:background="@color/corBotoes"
         android:text="@string/txt_text_button_Limpar"
         app:layout_constraintBottom_toTopOf="@+id/editFinalizar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
-        app:layout_constraintVertical_bias="0.953" />
+        app:layout_constraintTop_toBottomOf="@+id/editSalvar"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/editFinalizar"
@@ -100,7 +98,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:layout_marginBottom="168dp"
-        android:background="@color/corBotoes"
         android:text="@string/txt_button_edit_Finalizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
